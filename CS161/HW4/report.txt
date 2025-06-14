@@ -1,0 +1,17 @@
+1. The graph 1 with k = 3 is UNSATISFIABLE.
+
+2. The graph 1 with k = 4 is SATISFIABLE.
+
+3. The answers of these two SAT instances tell us that graph 1 cannot be solved with 3 colors, because having 3 colors is not enough and that we need at least 4 different colors so that no two connected nodes share the same color. 
+
+One possible assignment is the following: 
+
+Node 1: Color 1
+Node 2: Color 3
+Node 3: Color 4
+Node 4: Color 1
+Node 5: Color 2
+Node 6: Color 3
+Node 7: Color 2
+
+4. 8 colors.
